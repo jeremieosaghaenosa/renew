@@ -1,0 +1,50 @@
+
+body{
+  background-image:url("trees2.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+}
+
+.cover{
+  align-items: center;
+  max-height: 100%;
+  max-width: 100%;
+  display: inline-flex;
+/*  padding-left:20px;
+  padding-right:20px; */
+  padding-top: 30px;
+  /*margin-left: 20px;
+  margin-right: 20px; */
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+}
+.description{
+  text-align: center;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.video{
+  display: none;
+}
+td{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+table{
+  background: linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(255,215,0,0.8));
+  text-align: center;
+}
+#box{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
